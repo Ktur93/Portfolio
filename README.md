@@ -6,4 +6,4 @@ J’aime le côté concret de l’informatique : comprendre un besoin, proposer 
 
 À travers mes projets (cours et personnels), je progresse sur des compétences comme la **conception**, le **développement**, l’**analyse**, et la **communication technique**. Je cherche une structure où je pourrai continuer à apprendre, être encadré, et contribuer concrètement à des missions utiles.
 
-Si mon profil correspond à ce que vous recherchez, vous pouvez me contacter via les informations indiquées dans la section **Contact**.
+Si mon profil correspond à ce que vous recherchez, vous pouvez me contacter via les informations indiquées dans la section **Contact** de mon site : https://ktur93.github.io/Portfolio/
