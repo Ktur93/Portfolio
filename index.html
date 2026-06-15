@@ -1,465 +1,392 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio d'Ali DEMIR — Étudiant BUT1 Informatique, à la recherche d'un apprentissage (rentrée 2026)." />
-  <title>Ali DEMIR — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="theme-color" content="#0b1220" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ali DEMIR</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<a class="skip-link" href="#contenu">Aller au contenu</a>
 
-<!-- HEADER -->
-<header class="site-header" role="banner">
-  <div class="container header-inner">
-    <div class="brand">
-      <a class="brand-link" href="#top" aria-label="Retour en haut de la page">
-        <span class="brand-mark" aria-hidden="true">AD</span>
-        <span class="brand-name">Ali DEMIR</span>
-      </a>
-    </div>
+    <header>
+        <div class="conteneur entete">
+            <a class="logo" href="#accueil">Ali DEMIR</a>
 
-    <nav class="nav" aria-label="Navigation principale">
-      <ul class="nav-list">
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#projets">Projets (SAÉ)</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#parcours">Parcours</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="header-actions">
-      <a class="btn btn-ghost" href="#contact">Me contacter</a>
-      <a class="btn btn-primary" href="#projets">Voir mes SAÉ</a>
-    </div>
-  </div>
-</header>
-
-<!-- MAIN -->
-<main id="contenu" class="main" role="main">
-  <!-- HERO -->
-  <section id="top" class="hero" aria-labelledby="hero-title">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <p class="eyebrow">Étudiant BUT1 Informatique • IUT de Montreuil</p>
-
-        <h1 id="hero-title" class="hero-title">Portfolio</h1>
-
-        <p class="hero-subtitle">
-          Je suis <strong>Ali DEMIR</strong>, étudiant en <strong>BUT Informatique</strong>.
-          Je recherche un <strong>apprentissage</strong> pour la rentrée <strong>2026</strong>.
-          Mon objectif : progresser vite, livrer sérieusement, et apporter de la valeur à une équipe.
-        </p>
-
-        <div class="hero-badges" aria-label="Points clés">
-          <span class="badge">Développement Web (HTML/CSS)</span>
-          <span class="badge">Java (POO, tests JUnit)</span>
-          <span class="badge">Linux / Bash</span>
-          <span class="badge">SQL / Bases de données</span>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#parcours">Parcours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="#contact">Discutons d’une alternance</a>
-          <a class="btn btn-ghost" href="#projets">Voir mes projets</a>
+    <main id="accueil">
+
+        <section class="hero">
+            <div class="conteneur hero-contenu">
+                <div>
+                    <p class="petit-titre">Étudiant en BUT1 Informatique • IUT de Montreuil</p>
+                    <h1>Portfolio</h1>
+                    <p class="intro">
+                        Je m'appelle Ali DEMIR. Ce portfolio présente les projets que j'ai réalisés en première année de BUT Informatique.
+                        Il montre ma progression en développement, en algorithmique, en base de données, en réseau et en travail d'équipe.
+                    </p>
+
+                    <div class="boutons">
+                        <a href="#projets" class="bouton principal">Voir mes projets</a>
+                        <a href="#contact" class="bouton">Me contacter</a>
+                    </div>
+                </div>
+
+                <aside class="carte-profil">
+                    <h2>Ali DEMIR</h2>
+                    <p>BUT Informatique - 1re année</p>
+                    <p>Recherche d'une alternance pour continuer à progresser dans le développement informatique.</p>
+
+                    <ul>
+                        <li><strong>Localisation :</strong> Pantin</li>
+                        <li><strong>Formation :</strong> IUT de Montreuil</li>
+                        <li><strong>Objectif :</strong> apprentissage / alternance</li>
+                    </ul>
+
+                    <div class="liens-profil">
+                        <a href="https://github.com/Ktur93" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/demiralialain/" target="_blank">LinkedIn</a>
+                        <a href="CV.pdf" target="_blank">CV</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="apropos" class="section claire">
+            <div class="conteneur deux-colonnes">
+                <div>
+                    <h2>À propos</h2>
+                    <p>
+                        J'aime l'informatique quand elle permet de répondre à un besoin concret. Dans mes projets,
+                        je pars d'une consigne ou d'un problème, puis j'essaie de construire une solution claire,
+                        organisée et compréhensible.
+                    </p>
+                    <p>
+                        Mon objectif est de progresser dans les bases importantes : écrire un code lisible, comprendre
+                        les erreurs, travailler avec une équipe et expliquer ce que j'ai fait avec des mots simples.
+                    </p>
+                </div>
+
+                <div class="bloc">
+                    <h3>Ma méthode de travail</h3>
+                    <ul>
+                        <li>Lire la consigne et repérer le besoin principal.</li>
+                        <li>Découper le travail en petites étapes.</li>
+                        <li>Tester régulièrement pour éviter les erreurs trop tardives.</li>
+                        <li>Garder un code propre, avec des noms compréhensibles.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section">
+            <div class="conteneur">
+                <h2>Projets et SAÉ</h2>
+                <p class="texte-section">
+                    Voici les principaux projets réalisés pendant ma première année. Ils montrent plusieurs compétences du BUT :
+                    réaliser une application, optimiser une solution, gérer des données, administrer un service et collaborer en équipe.
+                </p>
+
+                <h3 class="separateur">Semestre 2</h3>
+                <div class="grille-projets">
+
+                    <article class="projet">
+                        <p class="categorie">S2.01 • Java / JavaFX</p>
+                        <h4>Tower Defense</h4>
+                        <p>
+                            Développement d'un jeu de Tower Defense en Java avec JavaFX. Le projet contient une carte,
+                            des monstres, des tours, des vagues, des déplacements et des interactions avec l'interface.
+                        </p>
+                        <ul>
+                            <li>Programmation orientée objet : classes, héritage, responsabilités.</li>
+                            <li>Interface graphique avec JavaFX et FXML.</li>
+                            <li>Gestion des vagues, des monstres, des tours et des rubis.</li>
+                            <li>Travail en groupe avec répartition des tâches.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>Java</span><span>JavaFX</span><span>FXML</span><span>POO</span>
+                        </div>
+                        <a class="lien-projet" href="https://github.com/Ktur93/SAE_Tower_Defense" target="_blank">Voir sur GitHub</a>
+                    </article>
+
+                    <article class="projet">
+                        <p class="categorie">S2.02 • Python / Algorithmique</p>
+                        <h4>Exploration algorithmique avec courbes de Bézier</h4>
+                        <p>
+                            Création d'une planche de tuiles carrées pour une tilemap. Chaque tuile contient des chemins
+                            tracés avec des courbes de Bézier quadratiques.
+                        </p>
+                        <ul>
+                            <li>Utilisation de points de contrôle pour construire les courbes.</li>
+                            <li>Génération de plusieurs modèles de tuiles à partir d'un même principe.</li>
+                            <li>Utilisation de Python, NumPy et Matplotlib.</li>
+                            <li>Présentation orale du raisonnement et du programme.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>Python</span><span>NumPy</span><span>Matplotlib</span><span>Bézier</span>
+                        </div>
+                    </article>
+
+                    <article class="projet">
+                        <p class="categorie">S2.03 • Réseau / Serveur</p>
+                        <h4>Installation d'un serveur LAMP</h4>
+                        <p>
+                            Installation et configuration d'un serveur LAMP sur une machine virtuelle Ubuntu MATE.
+                            Le but était de faire fonctionner Linux, Apache, MySQL et PHP ensemble.
+                        </p>
+                        <ul>
+                            <li>Installation d'Ubuntu MATE dans VirtualBox.</li>
+                            <li>Installation des services Apache, PHP et MySQL.</li>
+                            <li>Création d'un site de test et d'une base de données.</li>
+                            <li>Tests unitaires puis test final avec une page PHP.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>Linux</span><span>Apache</span><span>MySQL</span><span>PHP</span>
+                        </div>
+                    </article>
+
+                    <article class="projet">
+                        <p class="categorie">S2.04 • Base de données</p>
+                        <h4>Base de données du métro parisien</h4>
+                        <p>
+                            Conception et exploitation d'une base de données relationnelle autour du transport public.
+                            Le projet utilise des scripts SQL, des données et des requêtes pour analyser des informations.
+                        </p>
+                        <ul>
+                            <li>Création d'un schéma relationnel et d'un MLD.</li>
+                            <li>Insertion de données dans une base PostgreSQL.</li>
+                            <li>Écriture de requêtes SQL avec jointures et agrégations.</li>
+                            <li>Analyse de données avec graphiques et indicateurs.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>SQL</span><span>PostgreSQL</span><span>MLD</span><span>Données</span>
+                        </div>
+                        <a class="lien-projet" href="https://github.com/Ktur93/BUT1-SAE-Base-de-Donnees-Metro-Parisien" target="_blank">Voir sur GitHub</a>
+                    </article>
+                </div>
+
+                <h3 class="separateur">Semestre 1</h3>
+                <div class="grille-projets">
+
+                    <article class="projet">
+                        <p class="categorie">SAÉ 05-06 • HTML / CSS</p>
+                        <h4>Site vitrine multi-pages</h4>
+                        <p>
+                            Réalisation en équipe d'un site vitrine pour une association. Le site contient plusieurs pages,
+                            une navigation, une page contact et des pages légales.
+                        </p>
+                        <ul>
+                            <li>Structure HTML avec header, navigation, main, sections et footer.</li>
+                            <li>Mise en forme avec une feuille CSS externe.</li>
+                            <li>Organisation d'un site multi-pages.</li>
+                            <li>Travail en équipe autour d'un besoin de type client.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>HTML5</span><span>CSS3</span><span>Site web</span><span>Équipe</span>
+                        </div>
+                        <a class="lien-projet" href="https://github.com/Ktur93/BUT1-SAE-Dev-Web" target="_blank">Voir sur GitHub</a>
+                    </article>
+
+                    <article class="projet">
+                        <p class="categorie">SAÉ 1.01 • Java</p>
+                        <h4>Application console en Java</h4>
+                        <p>
+                            Développement d'une application simple en Java. Ce projet m'a permis de travailler la logique,
+                            l'organisation du code et les tests.
+                        </p>
+                        <ul>
+                            <li>Création de classes et méthodes.</li>
+                            <li>Utilisation de la programmation orientée objet.</li>
+                            <li>Tests pour vérifier le comportement du programme.</li>
+                            <li>Correction progressive des erreurs.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>Java</span><span>POO</span><span>JUnit</span><span>Tests</span>
+                        </div>
+                        <br>
+                        <a class="lien-projet" href="https://github.com/Ktur93/BUT1-SAE-Java-POO" target="_blank">Voir sur GitHub</a>
+                    </article>
+
+                    <article class="projet">
+                        <p class="categorie">SAÉ 1.02 • Algorithmique</p>
+                        <h4>Comparaison d'algorithmes</h4>
+                        <p>
+                            Étude de plusieurs algorithmes pour comparer leur fonctionnement et leur efficacité.
+                            Le but était de comprendre pourquoi certains choix sont meilleurs selon le problème.
+                        </p>
+                        <ul>
+                            <li>Découpage d'un problème en étapes simples.</li>
+                            <li>Comparaison de méthodes de tri ou de recherche.</li>
+                            <li>Mesure et interprétation des résultats.</li>
+                            <li>Utilisation du raisonnement algorithmique.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>Algorithmes</span><span>Complexité</span><span>Comparaison</span>
+                        </div>
+                    </article>
+
+                    <article class="projet">
+                        <p class="categorie">SAÉ 1.03 • Système</p>
+                        <h4>Installation d'un poste de travail</h4>
+                        <p>
+                            Installation et configuration d'un environnement Linux avec une machine virtuelle.
+                            Ce projet m'a aidé à comprendre les bases d'un système d'exploitation.
+                        </p>
+                        <ul>
+                            <li>Installation d'une machine virtuelle.</li>
+                            <li>Découverte du terminal Linux.</li>
+                            <li>Gestion de fichiers, utilisateurs et droits.</li>
+                            <li>Préparation d'un environnement de développement.</li>
+                        </ul>
+                        <div class="technos">
+                            <span>Linux</span><span>VirtualBox</span><span>Terminal</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section claire">
+            <div class="conteneur">
+                <h2>Compétences travaillées</h2>
+                <p class="texte-section">
+                    Les projets réalisés pendant l'année m'ont permis de travailler les compétences du BUT Informatique.
+                    Je ne maîtrise pas encore tout, mais je progresse en reliant les cours aux projets concrets.
+                </p>
+
+                <div class="grille-competences">
+                    <article class="competence">
+                        <h3>Réaliser</h3>
+                        <p>Développer une solution informatique simple en respectant un besoin.</p>
+                        <p><strong>Exemples :</strong> site web, application Java, Tower Defense.</p>
+                    </article>
+
+                    <article class="competence">
+                        <h3>Optimiser</h3>
+                        <p>Comparer des solutions et choisir une méthode adaptée.</p>
+                        <p><strong>Exemples :</strong> algorithmes, courbes de Bézier, organisation du code.</p>
+                    </article>
+
+                    <article class="competence">
+                        <h3>Administrer</h3>
+                        <p>Installer et configurer un environnement ou un service informatique.</p>
+                        <p><strong>Exemples :</strong> Linux, VirtualBox, serveur LAMP.</p>
+                    </article>
+
+                    <article class="competence">
+                        <h3>Gérer</h3>
+                        <p>Concevoir et interroger une base de données relationnelle.</p>
+                        <p><strong>Exemples :</strong> PostgreSQL, MLD, requêtes SQL, métro parisien.</p>
+                    </article>
+
+                    <article class="competence">
+                        <h3>Conduire</h3>
+                        <p>Comprendre un besoin, organiser le travail et suivre l'avancement.</p>
+                        <p><strong>Exemples :</strong> projets en groupe, site vitrine, SAE de base de données.</p>
+                    </article>
+
+                    <article class="competence">
+                        <h3>Collaborer</h3>
+                        <p>Travailler avec d'autres étudiants et expliquer son travail.</p>
+                        <p><strong>Exemples :</strong> répartition des tâches, GitHub, livrables de groupe.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="parcours" class="section">
+            <div class="conteneur deux-colonnes">
+                <div>
+                    <h2>Parcours</h2>
+                    <article class="parcours-item">
+                        <h3>BUT Informatique — IUT de Montreuil</h3>
+                        <p class="date">2025 – 2028 (en cours) • BUT1</p>
+                        <p>
+                            Développement, bases de données, système, réseau, méthodologie projet.
+                            Objectif : consolider mes bases et gagner en autonomie sur des projets concrets.
+                        </p>
+                    </article>
+
+                    <article class="parcours-item">
+                        <h3>L1 Informatique — Université Sorbonne Paris Nord</h3>
+                        <p class="date">2024 – 2025</p>
+                        <p>
+                            Première année de licence en informatique, qui m’a permis de découvrir les bases
+                            de la programmation, de l’algorithmique et des mathématiques pour l’informatique.
+                        </p>
+                    </article>
+
+                    <article class="parcours-item">
+                        <h3>Préparateur de commandes Drive — Carrefour</h3>
+                        <p class="date">2024 – 2025</p>
+                        <ul>
+                            <li>Préparation et emballage des commandes</li>
+                            <li>Gestion des stocks et réassort</li>
+                            <li>Respect des délais et des règles de sécurité</li>
+                        </ul>
+                        <p>
+                            Expérience qui m’a renforcé sur la rigueur et l’efficacité en équipe.
+                        </p>
+                    </article>
+
+                    <article class="parcours-item">
+                        <h3>Bac général — Mathématiques / SES</h3>
+                        <p class="date">2021 – 2024</p>
+                        <p>
+                            Base solide en logique, raisonnement et analyse.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="bloc">
+                    <h3>Ce que je veux améliorer</h3>
+                    <ul>
+                        <li>Être plus autonome sur les grands projets.</li>
+                        <li>Mieux organiser mon code dès le début.</li>
+                        <li>Renforcer mes compétences en Java, SQL et web.</li>
+                        <li>Apprendre à mieux présenter mon travail à l'oral.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section claire">
+            <div class="conteneur deux-colonnes">
+                <div>
+                    <h2>Contact</h2>
+                    <p>
+                        Vous pouvez me contacter pour une alternance, un échange ou pour consulter mes projets.
+                    </p>
+                </div>
+
+                <div class="bloc contact-bloc">
+                    <p><strong>Email :</strong> <a href="mailto:alidemir.contact06@gmail.com">alidemir.contact06@gmail.com</a></p>
+                    <p><strong>Téléphone :</strong> 07 79 12 60 06</p>
+                    <p><strong>GitHub :</strong> <a href="https://github.com/Ktur93" target="_blank">github.com/Ktur93</a></p>
+                    <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/demiralialain/" target="_blank">Profil LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="conteneur pied-page">
+            <p>© 2026 - Ali DEMIR</p>
+            <p>Portfolio réalisé en HTML et CSS.</p>
         </div>
+    </footer>
 
-        <ul class="hero-meta" aria-label="Informations rapides">
-          <li><strong>Localisation :</strong> Pantin (93500)</li>
-          <li><strong>Permis :</strong> B (en cours)</li>
-          <li><strong>Disponibilité :</strong> Rentrée 2026</li>
-        </ul>
-      </div>
-
-      <!-- HERO CARD (sans photo) -->
-      <aside class="hero-card" aria-label="Carte profil">
-        <div class="profile">
-          <div class="profile-text">
-            <h2 class="profile-name">Ali DEMIR</h2>
-            <p class="profile-role">Étudiant BUT1 Informatique</p>
-            <p class="profile-focus">
-              Recherche <strong>apprentissage</strong> (Bac+2 → Bac+3) — <strong>rentrée 2026</strong>.
-            </p>
-          </div>
-
-          <div class="profile-links" aria-label="Liens externes">
-            <a class="link" href="https://github.com/Ktur93" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="link" href="https://www.linkedin.com/in/demiralialain/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a class="link" href="CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
-          </div>
-        </div>
-
-        <div class="profile-stats" aria-label="Atouts">
-          <div class="stat">
-            <p class="stat-label">Approche</p>
-            <p class="stat-value">Rigoureuse</p>
-          </div>
-          <div class="stat">
-            <p class="stat-label">Travail</p>
-            <p class="stat-value">Équipe</p>
-          </div>
-          <div class="stat">
-            <p class="stat-label">Priorité</p>
-            <p class="stat-value">Qualité</p>
-          </div>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <!-- À PROPOS -->
-  <section id="apropos" class="section" aria-labelledby="apropos-title">
-    <div class="container">
-      <header class="section-header">
-        <h2 id="apropos-title">À propos</h2>
-        <p class="section-subtitle">
-          Un profil sérieux, motivé, qui apprend vite et qui aime livrer du travail propre.
-        </p>
-      </header>
-
-      <div class="two-col">
-        <div class="card">
-          <h3>Ma façon de travailler</h3>
-          <p>
-            J’aime le côté concret de l’informatique : partir d’un besoin, concevoir une solution,
-            puis la réaliser avec une <strong>structure claire</strong> et des <strong>bases solides</strong>.
-            Je fais attention à la lisibilité, aux bonnes pratiques et à une progression étape par étape.
-          </p>
-          <ul class="checklist">
-            <li>Code structuré, compréhensible, maintenable</li>
-            <li>Communication simple et efficace (équipe / client)</li>
-            <li>Organisation, rigueur, respect des consignes et des délais</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Ce que je cherche</h3>
-          <p>
-            Une entreprise où je peux être encadré, monter en compétences et contribuer à des missions concrètes.
-            Je suis prêt à m’investir, apprendre rapidement et devenir utile sur du <strong>développement</strong>
-            et/ou des sujets <strong>systèmes / données</strong>.
-          </p>
-          <p class="muted">
-            Ce portfolio centralise mes projets et met en avant mon niveau actuel ainsi que ma progression.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJETS / SAE -->
-  <section id="projets" class="section" aria-labelledby="projets-title">
-    <div class="container">
-      <header class="section-header">
-        <h2 id="projets-title">Projets (SAÉ)</h2>
-        <p class="section-subtitle">
-          Mes SAÉ sont des projets en groupe, proches de situations réelles, avec livrables et exigences.
-          Elles montrent ma capacité à produire et à m’intégrer dans une méthode de travail.
-        </p>
-      </header>
-
-      <div class="projects-grid">
-        <!-- SAE WEB (gros projet) -->
-        <article class="project card" aria-labelledby="sae-web-title">
-          <div class="project-top">
-            <p class="project-tag">SAÉ 05–06 • Web • Projet “client”</p>
-            <h3 id="sae-web-title" class="project-title">Site vitrine multi-pages (projet encadré)</h3>
-            <p class="project-desc">
-              Réalisation d’un site vitrine complet en équipe (structure multi-pages, navigation, cohérence graphique).
-              Travail orienté “besoin” : comprendre une demande, proposer une solution claire, puis livrer un résultat propre.
-            </p>
-          </div>
-
-          <ul class="project-highlights">
-            <li>Architecture multi-pages (index, contact, à-propos, pages de contenu, pages légales)</li>
-            <li>Structuration sémantique HTML + séparation claire HTML/CSS</li>
-            <li>Organisation du travail en équipe (répartition, suivi, livrables)</li>
-          </ul>
-
-          <div class="project-tech" aria-label="Technologies SAÉ web">
-            <span class="pill">HTML5</span>
-            <span class="pill">CSS3</span>
-            <span class="pill">Navigation</span>
-            <span class="pill">Projet équipe</span>
-          </div>
-
-          <div class="project-links" aria-label="Lien GitHub SAÉ web">
-            <a class="btn btn-primary" href="https://github.com/Ktur93/BUT1-SAE-Dev-Web" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-          </div>
-        </article>
-
-        <!-- SAE DEV (Java) -->
-        <article class="project card" aria-labelledby="sae-java-title">
-          <div class="project-top">
-            <p class="project-tag">SAÉ 1.01 • Développement • Java</p>
-            <h3 id="sae-java-title" class="project-title">Application console Java (POO + tests JUnit)</h3>
-            <p class="project-desc">
-              Développement d’une application en Java avec une approche orientée objet, plus une stratégie de tests.
-              Objectif : produire un code robuste, lisible, et vérifier les comportements avec des tests.
-            </p>
-          </div>
-
-          <ul class="project-highlights">
-            <li>Conception POO (classes, responsabilités, organisation du code)</li>
-            <li>Jeux de tests (JUnit) pour valider les fonctionnalités</li>
-            <li>Rigueur : gestion de cas limites, débogage, amélioration progressive</li>
-          </ul>
-
-          <div class="project-tech" aria-label="Technologies SAÉ Java">
-            <span class="pill">Java</span>
-            <span class="pill">POO</span>
-            <span class="pill">JUnit</span>
-            <span class="pill">Debug</span>
-          </div>
-
-          <div class="project-links" aria-label="Lien GitHub SAÉ Java">
-            <a class="btn btn-primary" href="https://github.com/Ktur93/BUT1-SAE-Java-POO" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-          </div>
-        </article>
-
-        <!-- SAE BD -->
-        <article class="project card" aria-labelledby="sae-bd-title">
-          <div class="project-top">
-            <p class="project-tag">SAÉ • Base de données</p>
-            <h3 id="sae-bd-title" class="project-title">Base de données e-sport (schéma + requêtes SQL)</h3>
-            <p class="project-desc">
-              Conception et implémentation d’une base de données pour gérer un contexte e-sport
-              (équipes, joueurs, tournois, inscriptions, matchs, résultats), puis écriture de requêtes SQL variées.
-            </p>
-          </div>
-
-          <ul class="project-highlights">
-            <li>Création du schéma : tables, clés primaires, clés étrangères, cohérence des relations</li>
-            <li>Requêtes SQL : jointures, agrégations, filtres, regroupements (GROUP BY/HAVING)</li>
-            <li>Capacité à interroger une base “comme en situation réelle” (questions métier)</li>
-          </ul>
-
-          <div class="project-tech" aria-label="Technologies SAÉ BD">
-            <span class="pill">SQL</span>
-            <span class="pill">Modélisation</span>
-            <span class="pill">Jointures</span>
-            <span class="pill">Agrégations</span>
-          </div>
-
-          <div class="project-links" aria-label="Lien GitHub SAÉ BD">
-            <a class="btn btn-primary" href="https://github.com/Ktur93/SAE-Base-de-Donnees-E-sport-SQL" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-          </div>
-        </article>
-
-
-        <!-- SAE ALGO -->
-        <article class="project card" aria-labelledby="sae-algo-title">
-          <div class="project-top">
-            <p class="project-tag">SAÉ 1.02 • Algorithmique</p>
-            <h3 id="sae-algo-title" class="project-title">Comparaison d’algorithmes (tris, recherche, performance)</h3>
-            <p class="project-desc">
-              Étude et mise en œuvre d’algorithmes (tris, recherche) avec une approche “mesure et comparaison”.
-              L’objectif : comprendre la complexité, choisir la bonne méthode et justifier techniquement.
-            </p>
-          </div>
-
-          <ul class="project-highlights">
-            <li>Implémentations et comparaison de tris (principe / efficacité)</li>
-            <li>Recherche dichotomique vs approche naïve</li>
-            <li>Mesures et analyse des résultats (performance / complexité)</li>
-          </ul>
-
-          <div class="project-tech" aria-label="Technologies SAÉ Algo">
-            <span class="pill">Algorithmique</span>
-            <span class="pill">Complexité</span>
-            <span class="pill">Mesures</span>
-            <span class="pill">Analyse</span>
-          </div>
-        </article>
-
-        <!-- SAE SYS -->
-        <article class="project card" aria-labelledby="sae-sys-title">
-          <div class="project-top">
-            <p class="project-tag">SAÉ 1.03 • Système</p>
-            <h3 id="sae-sys-title" class="project-title">Installation d’un poste de travail (VM Linux)</h3>
-            <p class="project-desc">
-              Mise en place d’un environnement de travail via machine virtuelle : installation, configuration,
-              prise en main Linux et préparation des outils nécessaires. Objectif : être autonome sur un poste propre et opérationnel.
-            </p>
-          </div>
-
-          <ul class="project-highlights">
-            <li>Installation et configuration d’une VM (VirtualBox / Linux)</li>
-            <li>Prise en main terminal : fichiers, droits, utilisateurs</li>
-            <li>Installation d’outils et préparation d’un environnement de dev</li>
-          </ul>
-
-          <div class="project-tech" aria-label="Technologies SAÉ système">
-            <span class="pill">Linux</span>
-            <span class="pill">VM</span>
-            <span class="pill">CLI</span>
-            <span class="pill">Configuration</span>
-          </div>
-
-          <!-- Pas de lien GitHub ici (comme demandé) -->
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- COMPÉTENCES -->
-  <section id="competences" class="section" aria-labelledby="competences-title">
-    <div class="container">
-      <header class="section-header">
-        <h2 id="competences-title">Compétences</h2>
-        <p class="section-subtitle">Un socle solide, et une montée en compétences continue.</p>
-      </header>
-
-      <div class="skills-grid">
-        <div class="card">
-          <h3>Techniques</h3>
-          <ul class="skills-list">
-            <li><strong>Java</strong> — POO, logique, tests (JUnit)</li>
-            <li><strong>HTML5 / CSS3</strong> — structuration, responsive, bonnes pratiques</li>
-            <li><strong>C</strong> — bases, algorithmique, structures</li>
-            <li><strong>Linux</strong> — terminal, droits, utilisateurs, environnement</li>
-            <li><strong>SQL</strong> — requêtes, jointures, agrégats, modélisation (bases)</li>
-            <li><strong>Réseaux</strong> — notions fondamentales (bases)</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Transversales</h3>
-          <ul class="skills-list">
-            <li><strong>Travail en équipe</strong> — coopération, répartition, communication</li>
-            <li><strong>Organisation</strong> — méthode, priorisation, suivi</li>
-            <li><strong>Rigueur</strong> — fiabilité, qualité, attention aux détails</li>
-          </ul>
-
-          <div class="note">
-            <p>
-              Je cherche une équipe où je peux apprendre vite, être utile, et progresser avec des retours concrets.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PARCOURS -->
-  <section id="parcours" class="section" aria-labelledby="parcours-title">
-    <div class="container">
-      <header class="section-header">
-        <h2 id="parcours-title">Parcours</h2>
-        <p class="section-subtitle">Formation + expérience : rigueur, adaptation, rythme de travail.</p>
-      </header>
-
-      <div class="timeline">
-        <article class="timeline-item card">
-          <h3>BUT Informatique — IUT de Montreuil</h3>
-          <p class="timeline-meta">2025 – 2028 (en cours) • BUT1</p>
-          <p>
-            Développement, bases de données, système, réseau, méthodologie projet.
-            Objectif : consolider mes bases et gagner en autonomie sur des projets concrets.
-          </p>
-        </article>
-
-        <article class="timeline-item card">
-          <h3>Préparateur de commandes Drive — Carrefour</h3>
-          <p class="timeline-meta">2024 – 2025</p>
-          <ul class="bullets">
-            <li>Préparation et emballage des commandes</li>
-            <li>Gestion des stocks et réassort</li>
-            <li>Respect des délais et des règles de sécurité</li>
-          </ul>
-          <p class="muted">
-            Expérience qui m’a renforcé sur la rigueur et l’efficacité en équipe.
-          </p>
-        </article>
-
-        <article class="timeline-item card">
-          <h3>Bac général — Mathématiques / SES</h3>
-          <p class="timeline-meta">2021 – 2024</p>
-          <p>Base solide en logique, raisonnement et analyse.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section" aria-labelledby="contact-title">
-    <div class="container">
-      <header class="section-header">
-        <h2 id="contact-title">Contact</h2>
-        <p class="section-subtitle">
-          Si vous cherchez un alternant sérieux, motivé et prêt à progresser rapidement, je suis partant.
-        </p>
-      </header>
-
-      <div class="contact-grid">
-        <div class="card">
-          <h3>Me joindre</h3>
-          <ul class="contact-list">
-            <li>
-              <span class="contact-label">Email</span>
-              <a href="mailto:alidemir.contact06@gmail.com">alidemir.contact06@gmail.com</a>
-            </li>
-            <li>
-              <span class="contact-label">Téléphone</span>
-              <a href="tel:+33779126006">07 79 12 60 06</a>
-            </li>
-            <li>
-              <span class="contact-label">Localisation</span>
-              <span>Pantin (93500)</span>
-            </li>
-          </ul>
-
-          <div class="contact-actions">
-            <a class="btn btn-primary" href="mailto:alidemir.contact06@gmail.com?subject=Contact%20-%20Alternance%20%2F%20Apprentissage">
-              Envoyer un email
-            </a>
-            <a class="btn btn-ghost" href="https://www.linkedin.com/in/demiralialain/" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Langues</h3>
-          <ul class="bullets">
-            <li><strong>Anglais :</strong> C1</li>
-            <li><strong>Allemand :</strong> A2+/B1</li>
-            <li><strong>Turc :</strong> C2</li>
-          </ul>
-
-          <hr class="divider" />
-
-          <h3>Liens</h3>
-          <ul class="bullets">
-            <li><a href="https://github.com/Ktur93" target="_blank" rel="noreferrer">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/demiralialain/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            <li><a href="CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Ali DEMIR — Portfolio</p>
-      <p class="muted">Construit en HTML/CSS, hébergé sur GitHub Pages.</p>
-    </div>
-  </footer>
-</main>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
 </body>
 </html>
